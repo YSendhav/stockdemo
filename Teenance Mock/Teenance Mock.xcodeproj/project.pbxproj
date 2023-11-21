@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181F8C0B2B0B79FC00E86205 /* StocksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F8C0A2B0B79FC00E86205 /* StocksListVC.swift */; };
+		181F8C0D2B0C72DF00E86205 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F8C0C2B0C72DF00E86205 /* StockCell.swift */; };
+		181F8C0F2B0CB05800E86205 /* BlogListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F8C0E2B0CB05800E86205 /* BlogListVC.swift */; };
+		1835DB422AF217A600C1B21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB412AF217A600C1B21C /* AppDelegate.swift */; };
+		1835DB442AF217A600C1B21C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB432AF217A600C1B21C /* SceneDelegate.swift */; };
+		1835DB462AF217A600C1B21C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB452AF217A600C1B21C /* ViewController.swift */; };
+		1835DB492AF217A600C1B21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1835DB472AF217A600C1B21C /* Main.storyboard */; };
+		1835DB4C2AF217A600C1B21C /* Teenance_Mock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB4A2AF217A600C1B21C /* Teenance_Mock.xcdatamodeld */; };
+		1835DB4E2AF217AA00C1B21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1835DB4D2AF217AA00C1B21C /* Assets.xcassets */; };
+		1835DB512AF217AA00C1B21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1835DB4F2AF217AA00C1B21C /* LaunchScreen.storyboard */; };
+		1835DB5C2AF217AA00C1B21C /* Teenance_MockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB5B2AF217AA00C1B21C /* Teenance_MockTests.swift */; };
+		1835DB662AF217AA00C1B21C /* Teenance_MockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB652AF217AA00C1B21C /* Teenance_MockUITests.swift */; };
+		1835DB682AF217AA00C1B21C /* Teenance_MockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835DB672AF217AA00C1B21C /* Teenance_MockUITestsLaunchTests.swift */; };
+		18B9B3972B08E64600FBCA0D /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9B3962B08E64600FBCA0D /* ChartCell.swift */; };
+		49B301BFEFA0DE170785E19C /* Pods_Teenance_Mock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9B1E1B23F80BFF7E1A9683 /* Pods_Teenance_Mock.framework */; };
+		57B32F601B2A63F1F3385AD9 /* Pods_Teenance_MockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC1A636C247F6AB2FFA3325 /* Pods_Teenance_MockTests.framework */; };
+		5F47A7A32A879D470DC4BF7E /* Pods_Teenance_Mock_Teenance_MockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6969D442BA4B51DE899C2ED6 /* Pods_Teenance_Mock_Teenance_MockUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1835DB582AF217AA00C1B21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1835DB362AF217A500C1B21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1835DB3D2AF217A600C1B21C;
+			remoteInfo = "Teenance Mock";
+		};
+		1835DB622AF217AA00C1B21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1835DB362AF217A500C1B21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1835DB3D2AF217A600C1B21C;
+			remoteInfo = "Teenance Mock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181F8C0A2B0B79FC00E86205 /* StocksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksListVC.swift; sourceTree = "<group>"; };
+		181F8C0C2B0C72DF00E86205 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		181F8C0E2B0CB05800E86205 /* BlogListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListVC.swift; sourceTree = "<group>"; };
+		1835DB3E2AF217A600C1B21C /* Teenance Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teenance Mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835DB412AF217A600C1B21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1835DB432AF217A600C1B21C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1835DB452AF217A600C1B21C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1835DB482AF217A600C1B21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1835DB4B2AF217A600C1B21C /* Teenance_Mock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teenance_Mock.xcdatamodel; sourceTree = "<group>"; };
+		1835DB4D2AF217AA00C1B21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1835DB502AF217AA00C1B21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1835DB522AF217AA00C1B21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1835DB572AF217AA00C1B21C /* Teenance MockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teenance MockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835DB5B2AF217AA00C1B21C /* Teenance_MockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teenance_MockTests.swift; sourceTree = "<group>"; };
+		1835DB612AF217AA00C1B21C /* Teenance MockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teenance MockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835DB652AF217AA00C1B21C /* Teenance_MockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teenance_MockUITests.swift; sourceTree = "<group>"; };
+		1835DB672AF217AA00C1B21C /* Teenance_MockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teenance_MockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18B9B3962B08E64600FBCA0D /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		3CC1A636C247F6AB2FFA3325 /* Pods_Teenance_MockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teenance_MockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874A81AEA5AD34E3738A6C9 /* Pods-Teenance Mock-Teenance MockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance Mock-Teenance MockUITests.debug.xcconfig"; path = "Target Support Files/Pods-Teenance Mock-Teenance MockUITests/Pods-Teenance Mock-Teenance MockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C9B1E1B23F80BFF7E1A9683 /* Pods_Teenance_Mock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teenance_Mock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9D52029735A6E444D96A9B /* Pods-Teenance Mock-Teenance MockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance Mock-Teenance MockUITests.release.xcconfig"; path = "Target Support Files/Pods-Teenance Mock-Teenance MockUITests/Pods-Teenance Mock-Teenance MockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6969D442BA4B51DE899C2ED6 /* Pods_Teenance_Mock_Teenance_MockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teenance_Mock_Teenance_MockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A112B57FB11D768D83E1CC4 /* Pods-Teenance Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance Mock.release.xcconfig"; path = "Target Support Files/Pods-Teenance Mock/Pods-Teenance Mock.release.xcconfig"; sourceTree = "<group>"; };
+		B9FC3AE0E6C2E74ADFA1608F /* Pods-Teenance MockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance MockTests.release.xcconfig"; path = "Target Support Files/Pods-Teenance MockTests/Pods-Teenance MockTests.release.xcconfig"; sourceTree = "<group>"; };
+		D24584A42A550BC6ED0B663E /* Pods-Teenance Mock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance Mock.debug.xcconfig"; path = "Target Support Files/Pods-Teenance Mock/Pods-Teenance Mock.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CBFE829E7501DD3C84A66C /* Pods-Teenance MockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teenance MockTests.debug.xcconfig"; path = "Target Support Files/Pods-Teenance MockTests/Pods-Teenance MockTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1835DB3B2AF217A600C1B21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B301BFEFA0DE170785E19C /* Pods_Teenance_Mock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB542AF217AA00C1B21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B32F601B2A63F1F3385AD9 /* Pods_Teenance_MockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB5E2AF217AA00C1B21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F47A7A32A879D470DC4BF7E /* Pods_Teenance_Mock_Teenance_MockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7CBAFB5A25D16787BE7845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9B1E1B23F80BFF7E1A9683 /* Pods_Teenance_Mock.framework */,
+				6969D442BA4B51DE899C2ED6 /* Pods_Teenance_Mock_Teenance_MockUITests.framework */,
+				3CC1A636C247F6AB2FFA3325 /* Pods_Teenance_MockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1835DB352AF217A500C1B21C = {
+			isa = PBXGroup;
+			children = (
+				1835DB402AF217A600C1B21C /* Teenance Mock */,
+				1835DB5A2AF217AA00C1B21C /* Teenance MockTests */,
+				1835DB642AF217AA00C1B21C /* Teenance MockUITests */,
+				1835DB3F2AF217A600C1B21C /* Products */,
+				A81412DCD9C6FB396502961B /* Pods */,
+				0D7CBAFB5A25D16787BE7845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1835DB3F2AF217A600C1B21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1835DB3E2AF217A600C1B21C /* Teenance Mock.app */,
+				1835DB572AF217AA00C1B21C /* Teenance MockTests.xctest */,
+				1835DB612AF217AA00C1B21C /* Teenance MockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1835DB402AF217A600C1B21C /* Teenance Mock */ = {
+			isa = PBXGroup;
+			children = (
+				1835DB412AF217A600C1B21C /* AppDelegate.swift */,
+				1835DB432AF217A600C1B21C /* SceneDelegate.swift */,
+				1835DB452AF217A600C1B21C /* ViewController.swift */,
+				181F8C0A2B0B79FC00E86205 /* StocksListVC.swift */,
+				181F8C0E2B0CB05800E86205 /* BlogListVC.swift */,
+				18B9B3962B08E64600FBCA0D /* ChartCell.swift */,
+				181F8C0C2B0C72DF00E86205 /* StockCell.swift */,
+				1835DB472AF217A600C1B21C /* Main.storyboard */,
+				1835DB4D2AF217AA00C1B21C /* Assets.xcassets */,
+				1835DB4F2AF217AA00C1B21C /* LaunchScreen.storyboard */,
+				1835DB522AF217AA00C1B21C /* Info.plist */,
+				1835DB4A2AF217A600C1B21C /* Teenance_Mock.xcdatamodeld */,
+			);
+			path = "Teenance Mock";
+			sourceTree = "<group>";
+		};
+		1835DB5A2AF217AA00C1B21C /* Teenance MockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1835DB5B2AF217AA00C1B21C /* Teenance_MockTests.swift */,
+			);
+			path = "Teenance MockTests";
+			sourceTree = "<group>";
+		};
+		1835DB642AF217AA00C1B21C /* Teenance MockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1835DB652AF217AA00C1B21C /* Teenance_MockUITests.swift */,
+				1835DB672AF217AA00C1B21C /* Teenance_MockUITestsLaunchTests.swift */,
+			);
+			path = "Teenance MockUITests";
+			sourceTree = "<group>";
+		};
+		A81412DCD9C6FB396502961B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24584A42A550BC6ED0B663E /* Pods-Teenance Mock.debug.xcconfig */,
+				6A112B57FB11D768D83E1CC4 /* Pods-Teenance Mock.release.xcconfig */,
+				5874A81AEA5AD34E3738A6C9 /* Pods-Teenance Mock-Teenance MockUITests.debug.xcconfig */,
+				5F9D52029735A6E444D96A9B /* Pods-Teenance Mock-Teenance MockUITests.release.xcconfig */,
+				D4CBFE829E7501DD3C84A66C /* Pods-Teenance MockTests.debug.xcconfig */,
+				B9FC3AE0E6C2E74ADFA1608F /* Pods-Teenance MockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1835DB3D2AF217A600C1B21C /* Teenance Mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1835DB6B2AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance Mock" */;
+			buildPhases = (
+				66C6D2803A3BB655CACC81CF /* [CP] Check Pods Manifest.lock */,
+				1835DB3A2AF217A600C1B21C /* Sources */,
+				1835DB3B2AF217A600C1B21C /* Frameworks */,
+				1835DB3C2AF217A600C1B21C /* Resources */,
+				0CEDE32C617969027CDD7925 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teenance Mock";
+			productName = "Teenance Mock";
+			productReference = 1835DB3E2AF217A600C1B21C /* Teenance Mock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1835DB562AF217AA00C1B21C /* Teenance MockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1835DB6E2AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance MockTests" */;
+			buildPhases = (
+				9F16C6E683C37349F56CC58D /* [CP] Check Pods Manifest.lock */,
+				1835DB532AF217AA00C1B21C /* Sources */,
+				1835DB542AF217AA00C1B21C /* Frameworks */,
+				1835DB552AF217AA00C1B21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1835DB592AF217AA00C1B21C /* PBXTargetDependency */,
+			);
+			name = "Teenance MockTests";
+			productName = "Teenance MockTests";
+			productReference = 1835DB572AF217AA00C1B21C /* Teenance MockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1835DB602AF217AA00C1B21C /* Teenance MockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1835DB712AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance MockUITests" */;
+			buildPhases = (
+				84FE8FFF10FD215847ABF8E4 /* [CP] Check Pods Manifest.lock */,
+				1835DB5D2AF217AA00C1B21C /* Sources */,
+				1835DB5E2AF217AA00C1B21C /* Frameworks */,
+				1835DB5F2AF217AA00C1B21C /* Resources */,
+				ABCEF8D6FA0782A7B369B6BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1835DB632AF217AA00C1B21C /* PBXTargetDependency */,
+			);
+			name = "Teenance MockUITests";
+			productName = "Teenance MockUITests";
+			productReference = 1835DB612AF217AA00C1B21C /* Teenance MockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1835DB362AF217A500C1B21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1835DB3D2AF217A600C1B21C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1835DB562AF217AA00C1B21C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1835DB3D2AF217A600C1B21C;
+					};
+					1835DB602AF217AA00C1B21C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1835DB3D2AF217A600C1B21C;
+					};
+				};
+			};
+			buildConfigurationList = 1835DB392AF217A500C1B21C /* Build configuration list for PBXProject "Teenance Mock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1835DB352AF217A500C1B21C;
+			productRefGroup = 1835DB3F2AF217A600C1B21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1835DB3D2AF217A600C1B21C /* Teenance Mock */,
+				1835DB562AF217AA00C1B21C /* Teenance MockTests */,
+				1835DB602AF217AA00C1B21C /* Teenance MockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1835DB3C2AF217A600C1B21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835DB512AF217AA00C1B21C /* LaunchScreen.storyboard in Resources */,
+				1835DB4E2AF217AA00C1B21C /* Assets.xcassets in Resources */,
+				1835DB492AF217A600C1B21C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB552AF217AA00C1B21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB5F2AF217AA00C1B21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEDE32C617969027CDD7925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock/Pods-Teenance Mock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock/Pods-Teenance Mock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock/Pods-Teenance Mock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C6D2803A3BB655CACC81CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teenance Mock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FE8FFF10FD215847ABF8E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teenance Mock-Teenance MockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F16C6E683C37349F56CC58D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teenance MockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCEF8D6FA0782A7B369B6BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock-Teenance MockUITests/Pods-Teenance Mock-Teenance MockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock-Teenance MockUITests/Pods-Teenance Mock-Teenance MockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teenance Mock-Teenance MockUITests/Pods-Teenance Mock-Teenance MockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1835DB3A2AF217A600C1B21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835DB462AF217A600C1B21C /* ViewController.swift in Sources */,
+				181F8C0B2B0B79FC00E86205 /* StocksListVC.swift in Sources */,
+				181F8C0D2B0C72DF00E86205 /* StockCell.swift in Sources */,
+				18B9B3972B08E64600FBCA0D /* ChartCell.swift in Sources */,
+				181F8C0F2B0CB05800E86205 /* BlogListVC.swift in Sources */,
+				1835DB422AF217A600C1B21C /* AppDelegate.swift in Sources */,
+				1835DB4C2AF217A600C1B21C /* Teenance_Mock.xcdatamodeld in Sources */,
+				1835DB442AF217A600C1B21C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB532AF217AA00C1B21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835DB5C2AF217AA00C1B21C /* Teenance_MockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835DB5D2AF217AA00C1B21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835DB662AF217AA00C1B21C /* Teenance_MockUITests.swift in Sources */,
+				1835DB682AF217AA00C1B21C /* Teenance_MockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1835DB592AF217AA00C1B21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1835DB3D2AF217A600C1B21C /* Teenance Mock */;
+			targetProxy = 1835DB582AF217AA00C1B21C /* PBXContainerItemProxy */;
+		};
+		1835DB632AF217AA00C1B21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1835DB3D2AF217A600C1B21C /* Teenance Mock */;
+			targetProxy = 1835DB622AF217AA00C1B21C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1835DB472AF217A600C1B21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1835DB482AF217A600C1B21C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1835DB4F2AF217AA00C1B21C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1835DB502AF217AA00C1B21C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1835DB692AF217AA00C1B21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1835DB6A2AF217AA00C1B21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1835DB6C2AF217AA00C1B21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24584A42A550BC6ED0B663E /* Pods-Teenance Mock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Teenance Mock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-Mock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1835DB6D2AF217AA00C1B21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A112B57FB11D768D83E1CC4 /* Pods-Teenance Mock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Teenance Mock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-Mock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1835DB6F2AF217AA00C1B21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CBFE829E7501DD3C84A66C /* Pods-Teenance MockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-MockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teenance Mock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teenance Mock";
+			};
+			name = Debug;
+		};
+		1835DB702AF217AA00C1B21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FC3AE0E6C2E74ADFA1608F /* Pods-Teenance MockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-MockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teenance Mock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teenance Mock";
+			};
+			name = Release;
+		};
+		1835DB722AF217AA00C1B21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5874A81AEA5AD34E3738A6C9 /* Pods-Teenance Mock-Teenance MockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-MockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teenance Mock";
+			};
+			name = Debug;
+		};
+		1835DB732AF217AA00C1B21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9D52029735A6E444D96A9B /* Pods-Teenance Mock-Teenance MockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teenancemock.Teenance-MockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teenance Mock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1835DB392AF217A500C1B21C /* Build configuration list for PBXProject "Teenance Mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835DB692AF217AA00C1B21C /* Debug */,
+				1835DB6A2AF217AA00C1B21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1835DB6B2AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance Mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835DB6C2AF217AA00C1B21C /* Debug */,
+				1835DB6D2AF217AA00C1B21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1835DB6E2AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance MockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835DB6F2AF217AA00C1B21C /* Debug */,
+				1835DB702AF217AA00C1B21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1835DB712AF217AA00C1B21C /* Build configuration list for PBXNativeTarget "Teenance MockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835DB722AF217AA00C1B21C /* Debug */,
+				1835DB732AF217AA00C1B21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1835DB4A2AF217A600C1B21C /* Teenance_Mock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1835DB4B2AF217A600C1B21C /* Teenance_Mock.xcdatamodel */,
+			);
+			currentVersion = 1835DB4B2AF217A600C1B21C /* Teenance_Mock.xcdatamodel */;
+			path = Teenance_Mock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1835DB362AF217A500C1B21C /* Project object */;
+}

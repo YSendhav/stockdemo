@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Teenance Mock' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Teenance Mock
+  pod 'SimpleLineChart'
+
+
+  target 'Teenance MockTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Teenance MockUITests' do
+    # Pods for testing
+  end
+
+end

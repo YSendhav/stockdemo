@@ -1,0 +1,6 @@
+framework module SimpleLineChart {
+  umbrella header "SimpleLineChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

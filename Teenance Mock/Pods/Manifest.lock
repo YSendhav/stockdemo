@@ -1,0 +1,16 @@
+PODS:
+  - SimpleLineChart (0.0.2)
+
+DEPENDENCIES:
+  - SimpleLineChart
+
+SPEC REPOS:
+  trunk:
+    - SimpleLineChart
+
+SPEC CHECKSUMS:
+  SimpleLineChart: 49644a0e5e715abb5563271349666273e447966e
+
+PODFILE CHECKSUM: aa357a5fff194b2b82d73a770af50198a1892ede
+
+COCOAPODS: 1.12.1
